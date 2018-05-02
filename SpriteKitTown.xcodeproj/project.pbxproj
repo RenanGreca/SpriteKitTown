@@ -38,6 +38,8 @@
 		3F3FB94F209A59CA006C48F1 /* SKTiled.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3FB929209A5108006C48F1 /* SKTiled.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F3FB954209A5B08006C48F1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB953209A5B08006C48F1 /* GameScene.sks */; };
 		3F3FB955209A5B08006C48F1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB953209A5B08006C48F1 /* GameScene.sks */; };
+		3F89584F209A678A0083FAC9 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89584E209A678A0083FAC9 /* Car.swift */; };
+		3F895850209A678A0083FAC9 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89584E209A678A0083FAC9 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +118,7 @@
 		3F3FB92F209A5645006C48F1 /* FreeCity.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FreeCity.tsx; sourceTree = "<group>"; };
 		3F3FB930209A5645006C48F1 /* map1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map1.tmx; sourceTree = "<group>"; };
 		3F3FB953209A5B08006C48F1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3F89584E209A678A0083FAC9 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +233,7 @@
 				3F3FB8C4209A3848006C48F1 /* GameScene.swift */,
 				3F3FB8E2209A39F2006C48F1 /* Level.swift */,
 				3F3FB8C8209A384C006C48F1 /* Assets.xcassets */,
+				3F89584E209A678A0083FAC9 /* Car.swift */,
 			);
 			path = SpriteKitTown;
 			sourceTree = "<group>";
@@ -470,6 +474,7 @@
 			files = (
 				3F3FB8C7209A3848006C48F1 /* ViewController.swift in Sources */,
 				3F3FB8C5209A3848006C48F1 /* GameScene.swift in Sources */,
+				3F89584F209A678A0083FAC9 /* Car.swift in Sources */,
 				3F3FB8E3209A39F2006C48F1 /* Level.swift in Sources */,
 				3F3FB913209A42B4006C48F1 /* GameScene+macOS.swift in Sources */,
 				3F3FB8BF209A3848006C48F1 /* AppDelegate.swift in Sources */,
@@ -490,6 +495,7 @@
 			files = (
 				3F3FB8F3209A3FE2006C48F1 /* GameViewController.swift in Sources */,
 				3F3FB910209A40DE006C48F1 /* GameScene.swift in Sources */,
+				3F895850209A678A0083FAC9 /* Car.swift in Sources */,
 				3F3FB911209A40E0006C48F1 /* Level.swift in Sources */,
 				3F3FB915209A42D2006C48F1 /* GameScene+iOS.swift in Sources */,
 				3F3FB8EB209A3FE2006C48F1 /* AppDelegate.swift in Sources */,

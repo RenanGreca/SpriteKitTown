@@ -19,72 +19,70 @@ class GameScene: SKScene {
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     
+    let car = SKSpriteNode(imageNamed: "Audi")
+    
+//    var startPosition: CGPoint?
+    
     override func sceneDidLoad() {
         
         self.lastUpdateTime = 0
         
-//        let url = URL()
-//        Bundle.main.pat
+//        self.anchorPoint = CGPoint(x: 0, y: 0)
+        car.size = CGSize(width: 32, height: 32)
+        car.zPosition = 10000
         
         if let path = Bundle.main.path(forResource: "map1", ofType: "tmx"),
             let tileMap = SKTilemap.load(tmxFile: path) {
+            tileMap.zPosition = 0
             self.addChild(tileMap)
+            
+            let roadLayer = (tileMap.getLayers(named: "Roads") as! [SKTileLayer]).first!
+            let roadTiles = roadLayer.getTiles()
+            
+            for tile in roadTiles {
+                let c = self.car.copy() as! SKSpriteNode
+                c.position = CGPoint(x: tile.position.x-self.size.width/2, y: tile.position.y+self.size.height/2)
+                self.addChild(c)
+            }
+//            self.startPosition = roadTiles.first?.position
+            
+            
+            
         }
         
-//        self.anchorPoint = CGPoint(x: 0, y: 0)
         
-//        let level = Level()
-//
-//        for row in level.grid {
-//            for node in row {
-//                self.addChild(node)
-//            }
-//        }
         
-//        // Get label node from scene and store it for use later
-//        self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
-//        if let label = self.label {
-//            label.alpha = 0.0
-//            label.run(SKAction.fadeIn(withDuration: 2.0))
-//        }
-//
-//        // Create shape node to use during mouse interaction
-//        let w = (self.size.width + self.size.height) * 0.05
-//        self.spinnyNode = SKShapeNode.init(rectOf: CGSize.init(width: w, height: w), cornerRadius: w * 0.3)
-//
-//        if let spinnyNode = self.spinnyNode {
-//            spinnyNode.lineWidth = 2.5
-//
-//            spinnyNode.run(SKAction.repeatForever(SKAction.rotate(byAngle: CGFloat(Double.pi), duration: 1)))
-//            spinnyNode.run(SKAction.sequence([SKAction.wait(forDuration: 0.5),
-//                                              SKAction.fadeOut(withDuration: 0.5),
-//                                              SKAction.removeFromParent()]))
-//        }
     }
     
     
     func touchDown(atPoint pos : CGPoint) {
-        if let n = self.spinnyNode?.copy() as! SKShapeNode? {
-            n.position = pos
-            n.strokeColor = SKColor.green
-            self.addChild(n)
-        }
+        
+//        let c = self.car.copy() as! SKSpriteNode
+//        c.position = pos
+//        c.zPosition = 10000
+//        self.addChild(c)
+        
+//        if let n = self.spinnyNode?.copy() as! SKShapeNode? {
+//            n.position = pos
+//            n.strokeColor = SKColor.green
+//            self.addChild(n)
+//        }
     }
     
     func touchMoved(toPoint pos : CGPoint) {
-        if let n = self.spinnyNode?.copy() as! SKShapeNode? {
-            n.position = pos
-            n.strokeColor = SKColor.blue
-            self.addChild(n)
-        }
+//        if let n = self.spinnyNode?.copy() as! SKShapeNode? {
+//            n.position = pos
+//            n.strokeColor = SKColor.blue
+//            self.addChild(n)
+//        }
     }
     
     func touchUp(atPoint pos : CGPoint) {
-        if let n = self.spinnyNode?.copy() as! SKShapeNode? {
-            n.position = pos
-            n.strokeColor = SKColor.red
-            self.addChild(n)
-        }
+//        if let n = self.spinnyNode?.copy() as! SKShapeNode? {
+//            n.position = pos
+//            n.strokeColor = SKColor.red
+//            self.addChild(n)
+//        }
     }
     
     override func update(_ currentTime: TimeInterval) {
