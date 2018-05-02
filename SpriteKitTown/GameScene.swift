@@ -8,6 +8,7 @@
 
 import SpriteKit
 import GameplayKit
+import SKTiled
 
 class GameScene: SKScene {
     
@@ -22,15 +23,23 @@ class GameScene: SKScene {
         
         self.lastUpdateTime = 0
         
-        self.anchorPoint = CGPoint(x: 0, y: 0)
+//        let url = URL()
+//        Bundle.main.pat
         
-        let level = Level()
-        
-        for row in level.grid {
-            for node in row {
-                self.addChild(node)
-            }
+        if let path = Bundle.main.path(forResource: "map1", ofType: "tmx"),
+            let tileMap = SKTilemap.load(tmxFile: path) {
+            self.addChild(tileMap)
         }
+        
+//        self.anchorPoint = CGPoint(x: 0, y: 0)
+        
+//        let level = Level()
+//
+//        for row in level.grid {
+//            for node in row {
+//                self.addChild(node)
+//            }
+//        }
         
 //        // Get label node from scene and store it for use later
 //        self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode

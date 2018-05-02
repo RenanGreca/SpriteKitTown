@@ -8,6 +8,7 @@
 
 import Foundation
 import SpriteKit
+import SKTiled
 
 class Level {
     

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F3FB8BF209A3848006C48F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8BE209A3848006C48F1 /* AppDelegate.swift */; };
-		3F3FB8C1209A3848006C48F1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C0209A3848006C48F1 /* GameScene.sks */; };
 		3F3FB8C3209A3848006C48F1 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C2209A3848006C48F1 /* Actions.sks */; };
 		3F3FB8C5209A3848006C48F1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C4209A3848006C48F1 /* GameScene.swift */; };
 		3F3FB8C7209A3848006C48F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C6209A3848006C48F1 /* ViewController.swift */; };
@@ -22,22 +21,23 @@
 		3F3FB8F6209A3FE2006C48F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8F4209A3FE2006C48F1 /* Main.storyboard */; };
 		3F3FB8FB209A3FE3006C48F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8F9209A3FE3006C48F1 /* LaunchScreen.storyboard */; };
 		3F3FB906209A3FE4006C48F1 /* SpriteKitTowniOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB905209A3FE4006C48F1 /* SpriteKitTowniOSTests.swift */; };
-		3F3FB90F209A40DB006C48F1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C0209A3848006C48F1 /* GameScene.sks */; };
 		3F3FB910209A40DE006C48F1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C4209A3848006C48F1 /* GameScene.swift */; };
 		3F3FB911209A40E0006C48F1 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8E2209A39F2006C48F1 /* Level.swift */; };
 		3F3FB913209A42B4006C48F1 /* GameScene+macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB912209A42B4006C48F1 /* GameScene+macOS.swift */; };
 		3F3FB915209A42D2006C48F1 /* GameScene+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB914209A42D2006C48F1 /* GameScene+iOS.swift */; };
 		3F3FB916209A4A1E006C48F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C8209A384C006C48F1 /* Assets.xcassets */; };
-		3F3FB920209A4B92006C48F1 /* free_tileset_version_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91D209A4B91006C48F1 /* free_tileset_version_7.png */; };
-		3F3FB921209A4B92006C48F1 /* free_tileset_version_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91D209A4B91006C48F1 /* free_tileset_version_7.png */; };
-		3F3FB922209A4B92006C48F1 /* FreeCity.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91E209A4B91006C48F1 /* FreeCity.tsx */; };
-		3F3FB923209A4B92006C48F1 /* FreeCity.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91E209A4B91006C48F1 /* FreeCity.tsx */; };
-		3F3FB924209A4B92006C48F1 /* map1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91F209A4B92006C48F1 /* map1.tmx */; };
-		3F3FB925209A4B92006C48F1 /* map1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91F209A4B92006C48F1 /* map1.tmx */; };
-		3F3FB927209A4D60006C48F1 /* FreeCityTileset.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB926209A4D60006C48F1 /* FreeCityTileset.sks */; };
-		3F3FB928209A4D60006C48F1 /* FreeCityTileset.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB926209A4D60006C48F1 /* FreeCityTileset.sks */; };
 		3F3FB92A209A5108006C48F1 /* SKTiled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3FB929209A5108006C48F1 /* SKTiled.framework */; };
-		3F3FB92C209A5112006C48F1 /* SKTiled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3FB92B209A5112006C48F1 /* SKTiled.framework */; };
+		3F3FB936209A5645006C48F1 /* free_tileset_version_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB92E209A5645006C48F1 /* free_tileset_version_7.png */; };
+		3F3FB937209A5645006C48F1 /* free_tileset_version_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB92E209A5645006C48F1 /* free_tileset_version_7.png */; };
+		3F3FB938209A5645006C48F1 /* FreeCity.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB92F209A5645006C48F1 /* FreeCity.tsx */; };
+		3F3FB939209A5645006C48F1 /* FreeCity.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB92F209A5645006C48F1 /* FreeCity.tsx */; };
+		3F3FB93A209A5645006C48F1 /* map1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB930209A5645006C48F1 /* map1.tmx */; };
+		3F3FB93B209A5645006C48F1 /* map1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB930209A5645006C48F1 /* map1.tmx */; };
+		3F3FB94B209A59C1006C48F1 /* SKTiled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3FB92B209A5112006C48F1 /* SKTiled.framework */; };
+		3F3FB94C209A59C1006C48F1 /* SKTiled.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3FB92B209A5112006C48F1 /* SKTiled.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F3FB94F209A59CA006C48F1 /* SKTiled.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3FB929209A5108006C48F1 /* SKTiled.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F3FB954209A5B08006C48F1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB953209A5B08006C48F1 /* GameScene.sks */; };
+		3F3FB955209A5B08006C48F1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB953209A5B08006C48F1 /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +57,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3F3FB94D209A59C1006C48F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F3FB94C209A59C1006C48F1 /* SKTiled.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3FB950209A59CA006C48F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F3FB94F209A59CA006C48F1 /* SKTiled.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3F3FB8BB209A3848006C48F1 /* SpriteKitTownMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitTownMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3FB8BE209A3848006C48F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F3FB8C0209A3848006C48F1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		3F3FB8C2209A3848006C48F1 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		3F3FB8C4209A3848006C48F1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3F3FB8C6209A3848006C48F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,12 +110,12 @@
 		3F3FB914209A42D2006C48F1 /* GameScene+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+iOS.swift"; sourceTree = "<group>"; };
 		3F3FB918209A4A99006C48F1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		3F3FB91A209A4AA0006C48F1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
-		3F3FB91D209A4B91006C48F1 /* free_tileset_version_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = free_tileset_version_7.png; sourceTree = SOURCE_ROOT; };
-		3F3FB91E209A4B91006C48F1 /* FreeCity.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FreeCity.tsx; sourceTree = SOURCE_ROOT; };
-		3F3FB91F209A4B92006C48F1 /* map1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map1.tmx; sourceTree = SOURCE_ROOT; };
-		3F3FB926209A4D60006C48F1 /* FreeCityTileset.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FreeCityTileset.sks; sourceTree = "<group>"; };
 		3F3FB929209A5108006C48F1 /* SKTiled.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SKTiled.framework; path = Carthage/Build/iOS/SKTiled.framework; sourceTree = "<group>"; };
 		3F3FB92B209A5112006C48F1 /* SKTiled.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SKTiled.framework; path = Carthage/Build/Mac/SKTiled.framework; sourceTree = "<group>"; };
+		3F3FB92E209A5645006C48F1 /* free_tileset_version_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = free_tileset_version_7.png; sourceTree = "<group>"; };
+		3F3FB92F209A5645006C48F1 /* FreeCity.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FreeCity.tsx; sourceTree = "<group>"; };
+		3F3FB930209A5645006C48F1 /* map1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map1.tmx; sourceTree = "<group>"; };
+		3F3FB953209A5B08006C48F1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3FB92C209A5112006C48F1 /* SKTiled.framework in Frameworks */,
+				3F3FB94B209A59C1006C48F1 /* SKTiled.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +155,7 @@
 		3F3FB8B2209A3848006C48F1 = {
 			isa = PBXGroup;
 			children = (
+				3F3FB92D209A5645006C48F1 /* Resources */,
 				3F3FB90E209A40CD006C48F1 /* SpriteKitTown */,
 				3F3FB8BD209A3848006C48F1 /* SpriteKitTownMac */,
 				3F3FB8D6209A384C006C48F1 /* SpriteKitTownTests */,
@@ -201,12 +226,10 @@
 		3F3FB90E209A40CD006C48F1 /* SpriteKitTown */ = {
 			isa = PBXGroup;
 			children = (
-				3F3FB91C209A4B79006C48F1 /* Maps */,
-				3F3FB8C0209A3848006C48F1 /* GameScene.sks */,
+				3F3FB953209A5B08006C48F1 /* GameScene.sks */,
 				3F3FB8C4209A3848006C48F1 /* GameScene.swift */,
 				3F3FB8E2209A39F2006C48F1 /* Level.swift */,
 				3F3FB8C8209A384C006C48F1 /* Assets.xcassets */,
-				3F3FB926209A4D60006C48F1 /* FreeCityTileset.sks */,
 			);
 			path = SpriteKitTown;
 			sourceTree = "<group>";
@@ -214,22 +237,62 @@
 		3F3FB917209A4A99006C48F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3F3FB929209A5108006C48F1 /* SKTiled.framework */,
-				3F3FB92B209A5112006C48F1 /* SKTiled.framework */,
+				3F3FB952209A5A2D006C48F1 /* Mac */,
+				3F3FB951209A5A27006C48F1 /* iOS */,
 				3F3FB91A209A4AA0006C48F1 /* libz.tbd */,
 				3F3FB918209A4A99006C48F1 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3F3FB91C209A4B79006C48F1 /* Maps */ = {
+		3F3FB92D209A5645006C48F1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3F3FB91D209A4B91006C48F1 /* free_tileset_version_7.png */,
-				3F3FB91E209A4B91006C48F1 /* FreeCity.tsx */,
-				3F3FB91F209A4B92006C48F1 /* map1.tmx */,
+				3F3FB94A209A565F006C48F1 /* png */,
+				3F3FB949209A565D006C48F1 /* tsx */,
+				3F3FB947209A5653006C48F1 /* tmx */,
 			);
-			path = Maps;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3F3FB947209A5653006C48F1 /* tmx */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB930209A5645006C48F1 /* map1.tmx */,
+			);
+			name = tmx;
+			sourceTree = "<group>";
+		};
+		3F3FB949209A565D006C48F1 /* tsx */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB92F209A5645006C48F1 /* FreeCity.tsx */,
+			);
+			name = tsx;
+			sourceTree = "<group>";
+		};
+		3F3FB94A209A565F006C48F1 /* png */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB92E209A5645006C48F1 /* free_tileset_version_7.png */,
+			);
+			name = png;
+			sourceTree = "<group>";
+		};
+		3F3FB951209A5A27006C48F1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB929209A5108006C48F1 /* SKTiled.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3F3FB952209A5A2D006C48F1 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB92B209A5112006C48F1 /* SKTiled.framework */,
+			);
+			name = Mac;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +305,7 @@
 				3F3FB8B7209A3848006C48F1 /* Sources */,
 				3F3FB8B8209A3848006C48F1 /* Frameworks */,
 				3F3FB8B9209A3848006C48F1 /* Resources */,
+				3F3FB94D209A59C1006C48F1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,6 +341,7 @@
 				3F3FB8E4209A3FE2006C48F1 /* Sources */,
 				3F3FB8E5209A3FE2006C48F1 /* Frameworks */,
 				3F3FB8E6209A3FE2006C48F1 /* Resources */,
+				3F3FB950209A59CA006C48F1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,14 +422,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3FB8C1209A3848006C48F1 /* GameScene.sks in Resources */,
 				3F3FB8C9209A384C006C48F1 /* Assets.xcassets in Resources */,
-				3F3FB924209A4B92006C48F1 /* map1.tmx in Resources */,
+				3F3FB93A209A5645006C48F1 /* map1.tmx in Resources */,
+				3F3FB954209A5B08006C48F1 /* GameScene.sks in Resources */,
 				3F3FB8C3209A3848006C48F1 /* Actions.sks in Resources */,
 				3F3FB8CC209A384C006C48F1 /* Main.storyboard in Resources */,
-				3F3FB922209A4B92006C48F1 /* FreeCity.tsx in Resources */,
-				3F3FB920209A4B92006C48F1 /* free_tileset_version_7.png in Resources */,
-				3F3FB927209A4D60006C48F1 /* FreeCityTileset.sks in Resources */,
+				3F3FB938209A5645006C48F1 /* FreeCity.tsx in Resources */,
+				3F3FB936209A5645006C48F1 /* free_tileset_version_7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,15 +443,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3FB928209A4D60006C48F1 /* FreeCityTileset.sks in Resources */,
 				3F3FB8F6209A3FE2006C48F1 /* Main.storyboard in Resources */,
 				3F3FB8FB209A3FE3006C48F1 /* LaunchScreen.storyboard in Resources */,
-				3F3FB923209A4B92006C48F1 /* FreeCity.tsx in Resources */,
-				3F3FB90F209A40DB006C48F1 /* GameScene.sks in Resources */,
+				3F3FB939209A5645006C48F1 /* FreeCity.tsx in Resources */,
 				3F3FB916209A4A1E006C48F1 /* Assets.xcassets in Resources */,
 				3F3FB8EF209A3FE2006C48F1 /* Actions.sks in Resources */,
-				3F3FB925209A4B92006C48F1 /* map1.tmx in Resources */,
-				3F3FB921209A4B92006C48F1 /* free_tileset_version_7.png in Resources */,
+				3F3FB93B209A5645006C48F1 /* map1.tmx in Resources */,
+				3F3FB955209A5B08006C48F1 /* GameScene.sks in Resources */,
+				3F3FB937209A5645006C48F1 /* free_tileset_version_7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
