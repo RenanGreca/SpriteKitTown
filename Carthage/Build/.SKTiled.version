@@ -1,0 +1,21 @@
+{
+  "Mac" : [
+    {
+      "name" : "SKTiled",
+      "hash" : "2c572b325db34cdcf14a1e78191dc8642517c3ce680fd5bad3dfeb806372b723"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.16",
+  "iOS" : [
+    {
+      "name" : "SKTiled",
+      "hash" : "79829fc93b837d86ce58a55d6fb65f85a9199e88e0de05e6ecbae7719a91d5c1"
+    }
+  ]
+}

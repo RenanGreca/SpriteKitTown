@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3FB8BF209A3848006C48F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8BE209A3848006C48F1 /* AppDelegate.swift */; };
+		3F3FB8C1209A3848006C48F1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C0209A3848006C48F1 /* GameScene.sks */; };
+		3F3FB8C3209A3848006C48F1 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C2209A3848006C48F1 /* Actions.sks */; };
+		3F3FB8C5209A3848006C48F1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C4209A3848006C48F1 /* GameScene.swift */; };
+		3F3FB8C7209A3848006C48F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C6209A3848006C48F1 /* ViewController.swift */; };
+		3F3FB8C9209A384C006C48F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C8209A384C006C48F1 /* Assets.xcassets */; };
+		3F3FB8CC209A384C006C48F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8CA209A384C006C48F1 /* Main.storyboard */; };
+		3F3FB8D8209A384C006C48F1 /* SpriteKitTownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8D7209A384C006C48F1 /* SpriteKitTownTests.swift */; };
+		3F3FB8E3209A39F2006C48F1 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8E2209A39F2006C48F1 /* Level.swift */; };
+		3F3FB8EB209A3FE2006C48F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8EA209A3FE2006C48F1 /* AppDelegate.swift */; };
+		3F3FB8EF209A3FE2006C48F1 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8EE209A3FE2006C48F1 /* Actions.sks */; };
+		3F3FB8F3209A3FE2006C48F1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8F2209A3FE2006C48F1 /* GameViewController.swift */; };
+		3F3FB8F6209A3FE2006C48F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8F4209A3FE2006C48F1 /* Main.storyboard */; };
+		3F3FB8FB209A3FE3006C48F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8F9209A3FE3006C48F1 /* LaunchScreen.storyboard */; };
+		3F3FB906209A3FE4006C48F1 /* SpriteKitTowniOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB905209A3FE4006C48F1 /* SpriteKitTowniOSTests.swift */; };
+		3F3FB90F209A40DB006C48F1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C0209A3848006C48F1 /* GameScene.sks */; };
+		3F3FB910209A40DE006C48F1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C4209A3848006C48F1 /* GameScene.swift */; };
+		3F3FB911209A40E0006C48F1 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB8E2209A39F2006C48F1 /* Level.swift */; };
+		3F3FB913209A42B4006C48F1 /* GameScene+macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB912209A42B4006C48F1 /* GameScene+macOS.swift */; };
+		3F3FB915209A42D2006C48F1 /* GameScene+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FB914209A42D2006C48F1 /* GameScene+iOS.swift */; };
+		3F3FB916209A4A1E006C48F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB8C8209A384C006C48F1 /* Assets.xcassets */; };
+		3F3FB920209A4B92006C48F1 /* free_tileset_version_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91D209A4B91006C48F1 /* free_tileset_version_7.png */; };
+		3F3FB921209A4B92006C48F1 /* free_tileset_version_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91D209A4B91006C48F1 /* free_tileset_version_7.png */; };
+		3F3FB922209A4B92006C48F1 /* FreeCity.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91E209A4B91006C48F1 /* FreeCity.tsx */; };
+		3F3FB923209A4B92006C48F1 /* FreeCity.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91E209A4B91006C48F1 /* FreeCity.tsx */; };
+		3F3FB924209A4B92006C48F1 /* map1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91F209A4B92006C48F1 /* map1.tmx */; };
+		3F3FB925209A4B92006C48F1 /* map1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB91F209A4B92006C48F1 /* map1.tmx */; };
+		3F3FB927209A4D60006C48F1 /* FreeCityTileset.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB926209A4D60006C48F1 /* FreeCityTileset.sks */; };
+		3F3FB928209A4D60006C48F1 /* FreeCityTileset.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FB926209A4D60006C48F1 /* FreeCityTileset.sks */; };
+		3F3FB92A209A5108006C48F1 /* SKTiled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3FB929209A5108006C48F1 /* SKTiled.framework */; };
+		3F3FB92C209A5112006C48F1 /* SKTiled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3FB92B209A5112006C48F1 /* SKTiled.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F3FB8D4209A384C006C48F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3FB8B3209A3848006C48F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3FB8BA209A3848006C48F1;
+			remoteInfo = SpriteKitTown;
+		};
+		3F3FB902209A3FE4006C48F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3FB8B3209A3848006C48F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3FB8E7209A3FE2006C48F1;
+			remoteInfo = SpriteKitTowniOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F3FB8BB209A3848006C48F1 /* SpriteKitTownMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitTownMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3FB8BE209A3848006C48F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F3FB8C0209A3848006C48F1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3F3FB8C2209A3848006C48F1 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3F3FB8C4209A3848006C48F1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3F3FB8C6209A3848006C48F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F3FB8C8209A384C006C48F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3FB8CB209A384C006C48F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3FB8CD209A384C006C48F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3FB8CE209A384C006C48F1 /* SpriteKitTown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpriteKitTown.entitlements; sourceTree = "<group>"; };
+		3F3FB8D3209A384C006C48F1 /* SpriteKitTownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitTownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3FB8D7209A384C006C48F1 /* SpriteKitTownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitTownTests.swift; sourceTree = "<group>"; };
+		3F3FB8D9209A384C006C48F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3FB8E2209A39F2006C48F1 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		3F3FB8E8209A3FE2006C48F1 /* SpriteKitTowniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitTowniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3FB8EA209A3FE2006C48F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F3FB8EE209A3FE2006C48F1 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3F3FB8F2209A3FE2006C48F1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3F3FB8F5209A3FE2006C48F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3FB8FA209A3FE3006C48F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3FB8FC209A3FE3006C48F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3FB901209A3FE3006C48F1 /* SpriteKitTowniOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitTowniOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3FB905209A3FE4006C48F1 /* SpriteKitTowniOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitTowniOSTests.swift; sourceTree = "<group>"; };
+		3F3FB907209A3FE4006C48F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3FB912209A42B4006C48F1 /* GameScene+macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+macOS.swift"; sourceTree = "<group>"; };
+		3F3FB914209A42D2006C48F1 /* GameScene+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+iOS.swift"; sourceTree = "<group>"; };
+		3F3FB918209A4A99006C48F1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3F3FB91A209A4AA0006C48F1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		3F3FB91D209A4B91006C48F1 /* free_tileset_version_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = free_tileset_version_7.png; sourceTree = SOURCE_ROOT; };
+		3F3FB91E209A4B91006C48F1 /* FreeCity.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FreeCity.tsx; sourceTree = SOURCE_ROOT; };
+		3F3FB91F209A4B92006C48F1 /* map1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map1.tmx; sourceTree = SOURCE_ROOT; };
+		3F3FB926209A4D60006C48F1 /* FreeCityTileset.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FreeCityTileset.sks; sourceTree = "<group>"; };
+		3F3FB929209A5108006C48F1 /* SKTiled.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SKTiled.framework; path = Carthage/Build/iOS/SKTiled.framework; sourceTree = "<group>"; };
+		3F3FB92B209A5112006C48F1 /* SKTiled.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SKTiled.framework; path = Carthage/Build/Mac/SKTiled.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3FB8B8209A3848006C48F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3FB92C209A5112006C48F1 /* SKTiled.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3FB8D0209A384C006C48F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3FB8E5209A3FE2006C48F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3FB92A209A5108006C48F1 /* SKTiled.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3FB8FE209A3FE3006C48F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3FB8B2209A3848006C48F1 = {
+			isa = PBXGroup;
+			children = (
+				3F3FB90E209A40CD006C48F1 /* SpriteKitTown */,
+				3F3FB8BD209A3848006C48F1 /* SpriteKitTownMac */,
+				3F3FB8D6209A384C006C48F1 /* SpriteKitTownTests */,
+				3F3FB8E9209A3FE2006C48F1 /* SpriteKitTowniOS */,
+				3F3FB904209A3FE4006C48F1 /* SpriteKitTowniOSTests */,
+				3F3FB8BC209A3848006C48F1 /* Products */,
+				3F3FB917209A4A99006C48F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3FB8BC209A3848006C48F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB8BB209A3848006C48F1 /* SpriteKitTownMac.app */,
+				3F3FB8D3209A384C006C48F1 /* SpriteKitTownTests.xctest */,
+				3F3FB8E8209A3FE2006C48F1 /* SpriteKitTowniOS.app */,
+				3F3FB901209A3FE3006C48F1 /* SpriteKitTowniOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3FB8BD209A3848006C48F1 /* SpriteKitTownMac */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB8BE209A3848006C48F1 /* AppDelegate.swift */,
+				3F3FB8C2209A3848006C48F1 /* Actions.sks */,
+				3F3FB8C6209A3848006C48F1 /* ViewController.swift */,
+				3F3FB8CA209A384C006C48F1 /* Main.storyboard */,
+				3F3FB8CD209A384C006C48F1 /* Info.plist */,
+				3F3FB8CE209A384C006C48F1 /* SpriteKitTown.entitlements */,
+				3F3FB912209A42B4006C48F1 /* GameScene+macOS.swift */,
+			);
+			path = SpriteKitTownMac;
+			sourceTree = "<group>";
+		};
+		3F3FB8D6209A384C006C48F1 /* SpriteKitTownTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB8D7209A384C006C48F1 /* SpriteKitTownTests.swift */,
+				3F3FB8D9209A384C006C48F1 /* Info.plist */,
+			);
+			path = SpriteKitTownTests;
+			sourceTree = "<group>";
+		};
+		3F3FB8E9209A3FE2006C48F1 /* SpriteKitTowniOS */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB8EA209A3FE2006C48F1 /* AppDelegate.swift */,
+				3F3FB8EE209A3FE2006C48F1 /* Actions.sks */,
+				3F3FB8F2209A3FE2006C48F1 /* GameViewController.swift */,
+				3F3FB8F4209A3FE2006C48F1 /* Main.storyboard */,
+				3F3FB8F9209A3FE3006C48F1 /* LaunchScreen.storyboard */,
+				3F3FB8FC209A3FE3006C48F1 /* Info.plist */,
+				3F3FB914209A42D2006C48F1 /* GameScene+iOS.swift */,
+			);
+			path = SpriteKitTowniOS;
+			sourceTree = "<group>";
+		};
+		3F3FB904209A3FE4006C48F1 /* SpriteKitTowniOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB905209A3FE4006C48F1 /* SpriteKitTowniOSTests.swift */,
+				3F3FB907209A3FE4006C48F1 /* Info.plist */,
+			);
+			path = SpriteKitTowniOSTests;
+			sourceTree = "<group>";
+		};
+		3F3FB90E209A40CD006C48F1 /* SpriteKitTown */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB91C209A4B79006C48F1 /* Maps */,
+				3F3FB8C0209A3848006C48F1 /* GameScene.sks */,
+				3F3FB8C4209A3848006C48F1 /* GameScene.swift */,
+				3F3FB8E2209A39F2006C48F1 /* Level.swift */,
+				3F3FB8C8209A384C006C48F1 /* Assets.xcassets */,
+				3F3FB926209A4D60006C48F1 /* FreeCityTileset.sks */,
+			);
+			path = SpriteKitTown;
+			sourceTree = "<group>";
+		};
+		3F3FB917209A4A99006C48F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB929209A5108006C48F1 /* SKTiled.framework */,
+				3F3FB92B209A5112006C48F1 /* SKTiled.framework */,
+				3F3FB91A209A4AA0006C48F1 /* libz.tbd */,
+				3F3FB918209A4A99006C48F1 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F3FB91C209A4B79006C48F1 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FB91D209A4B91006C48F1 /* free_tileset_version_7.png */,
+				3F3FB91E209A4B91006C48F1 /* FreeCity.tsx */,
+				3F3FB91F209A4B92006C48F1 /* map1.tmx */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3FB8BA209A3848006C48F1 /* SpriteKitTownMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3FB8DC209A384C006C48F1 /* Build configuration list for PBXNativeTarget "SpriteKitTownMac" */;
+			buildPhases = (
+				3F3FB8B7209A3848006C48F1 /* Sources */,
+				3F3FB8B8209A3848006C48F1 /* Frameworks */,
+				3F3FB8B9209A3848006C48F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteKitTownMac;
+			productName = SpriteKitTown;
+			productReference = 3F3FB8BB209A3848006C48F1 /* SpriteKitTownMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3FB8D2209A384C006C48F1 /* SpriteKitTownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3FB8DF209A384C006C48F1 /* Build configuration list for PBXNativeTarget "SpriteKitTownTests" */;
+			buildPhases = (
+				3F3FB8CF209A384C006C48F1 /* Sources */,
+				3F3FB8D0209A384C006C48F1 /* Frameworks */,
+				3F3FB8D1209A384C006C48F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3FB8D5209A384C006C48F1 /* PBXTargetDependency */,
+			);
+			name = SpriteKitTownTests;
+			productName = SpriteKitTownTests;
+			productReference = 3F3FB8D3209A384C006C48F1 /* SpriteKitTownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F3FB8E7209A3FE2006C48F1 /* SpriteKitTowniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3FB908209A3FE4006C48F1 /* Build configuration list for PBXNativeTarget "SpriteKitTowniOS" */;
+			buildPhases = (
+				3F3FB8E4209A3FE2006C48F1 /* Sources */,
+				3F3FB8E5209A3FE2006C48F1 /* Frameworks */,
+				3F3FB8E6209A3FE2006C48F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteKitTowniOS;
+			productName = SpriteKitTowniOS;
+			productReference = 3F3FB8E8209A3FE2006C48F1 /* SpriteKitTowniOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3FB900209A3FE3006C48F1 /* SpriteKitTowniOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3FB90B209A3FE4006C48F1 /* Build configuration list for PBXNativeTarget "SpriteKitTowniOSTests" */;
+			buildPhases = (
+				3F3FB8FD209A3FE3006C48F1 /* Sources */,
+				3F3FB8FE209A3FE3006C48F1 /* Frameworks */,
+				3F3FB8FF209A3FE3006C48F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3FB903209A3FE4006C48F1 /* PBXTargetDependency */,
+			);
+			name = SpriteKitTowniOSTests;
+			productName = SpriteKitTowniOSTests;
+			productReference = 3F3FB901209A3FE3006C48F1 /* SpriteKitTowniOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3FB8B3209A3848006C48F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = renangreca;
+				TargetAttributes = {
+					3F3FB8BA209A3848006C48F1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3F3FB8D2209A384C006C48F1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3F3FB8BA209A3848006C48F1;
+					};
+					3F3FB8E7209A3FE2006C48F1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3F3FB900209A3FE3006C48F1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3F3FB8E7209A3FE2006C48F1;
+					};
+				};
+			};
+			buildConfigurationList = 3F3FB8B6209A3848006C48F1 /* Build configuration list for PBXProject "SpriteKitTown" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3FB8B2209A3848006C48F1;
+			productRefGroup = 3F3FB8BC209A3848006C48F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3FB8BA209A3848006C48F1 /* SpriteKitTownMac */,
+				3F3FB8D2209A384C006C48F1 /* SpriteKitTownTests */,
+				3F3FB8E7209A3FE2006C48F1 /* SpriteKitTowniOS */,
+				3F3FB900209A3FE3006C48F1 /* SpriteKitTowniOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3FB8B9209A3848006C48F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3FB8C1209A3848006C48F1 /* GameScene.sks in Resources */,
+				3F3FB8C9209A384C006C48F1 /* Assets.xcassets in Resources */,
+				3F3FB924209A4B92006C48F1 /* map1.tmx in Resources */,
+				3F3FB8C3209A3848006C48F1 /* Actions.sks in Resources */,
+				3F3FB8CC209A384C006C48F1 /* Main.storyboard in Resources */,
+				3F3FB922209A4B92006C48F1 /* FreeCity.tsx in Resources */,
+				3F3FB920209A4B92006C48F1 /* free_tileset_version_7.png in Resources */,
+				3F3FB927209A4D60006C48F1 /* FreeCityTileset.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3FB8D1209A384C006C48F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3FB8E6209A3FE2006C48F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3FB928209A4D60006C48F1 /* FreeCityTileset.sks in Resources */,
+				3F3FB8F6209A3FE2006C48F1 /* Main.storyboard in Resources */,
+				3F3FB8FB209A3FE3006C48F1 /* LaunchScreen.storyboard in Resources */,
+				3F3FB923209A4B92006C48F1 /* FreeCity.tsx in Resources */,
+				3F3FB90F209A40DB006C48F1 /* GameScene.sks in Resources */,
+				3F3FB916209A4A1E006C48F1 /* Assets.xcassets in Resources */,
+				3F3FB8EF209A3FE2006C48F1 /* Actions.sks in Resources */,
+				3F3FB925209A4B92006C48F1 /* map1.tmx in Resources */,
+				3F3FB921209A4B92006C48F1 /* free_tileset_version_7.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3FB8FF209A3FE3006C48F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3FB8B7209A3848006C48F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3FB8C7209A3848006C48F1 /* ViewController.swift in Sources */,
+				3F3FB8C5209A3848006C48F1 /* GameScene.swift in Sources */,
+				3F3FB8E3209A39F2006C48F1 /* Level.swift in Sources */,
+				3F3FB913209A42B4006C48F1 /* GameScene+macOS.swift in Sources */,
+				3F3FB8BF209A3848006C48F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3FB8CF209A384C006C48F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3FB8D8209A384C006C48F1 /* SpriteKitTownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3FB8E4209A3FE2006C48F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3FB8F3209A3FE2006C48F1 /* GameViewController.swift in Sources */,
+				3F3FB910209A40DE006C48F1 /* GameScene.swift in Sources */,
+				3F3FB911209A40E0006C48F1 /* Level.swift in Sources */,
+				3F3FB915209A42D2006C48F1 /* GameScene+iOS.swift in Sources */,
+				3F3FB8EB209A3FE2006C48F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3FB8FD209A3FE3006C48F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3FB906209A3FE4006C48F1 /* SpriteKitTowniOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F3FB8D5209A384C006C48F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3FB8BA209A3848006C48F1 /* SpriteKitTownMac */;
+			targetProxy = 3F3FB8D4209A384C006C48F1 /* PBXContainerItemProxy */;
+		};
+		3F3FB903209A3FE4006C48F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3FB8E7209A3FE2006C48F1 /* SpriteKitTowniOS */;
+			targetProxy = 3F3FB902209A3FE4006C48F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F3FB8CA209A384C006C48F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3FB8CB209A384C006C48F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3FB8F4209A3FE2006C48F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3FB8F5209A3FE2006C48F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3FB8F9209A3FE3006C48F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3FB8FA209A3FE3006C48F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3FB8DA209A384C006C48F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F3FB8DB209A384C006C48F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3F3FB8DD209A384C006C48F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpriteKitTown/SpriteKitTown.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z9L342AVFZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = SpriteKitTown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renangreca.SpriteKitTown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3F3FB8DE209A384C006C48F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpriteKitTown/SpriteKitTown.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z9L342AVFZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = SpriteKitTown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renangreca.SpriteKitTown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		3F3FB8E0209A384C006C48F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z9L342AVFZ;
+				INFOPLIST_FILE = SpriteKitTownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renangreca.SpriteKitTownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitTown.app/Contents/MacOS/SpriteKitTown";
+			};
+			name = Debug;
+		};
+		3F3FB8E1209A384C006C48F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z9L342AVFZ;
+				INFOPLIST_FILE = SpriteKitTownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renangreca.SpriteKitTownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitTown.app/Contents/MacOS/SpriteKitTown";
+			};
+			name = Release;
+		};
+		3F3FB909209A3FE4006C48F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9L342AVFZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SpriteKitTowniOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renangreca.SpriteKitTowniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F3FB90A209A3FE4006C48F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9L342AVFZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SpriteKitTowniOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renangreca.SpriteKitTowniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3FB90C209A3FE4006C48F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9L342AVFZ;
+				INFOPLIST_FILE = SpriteKitTowniOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renangreca.SpriteKitTowniOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitTowniOS.app/SpriteKitTowniOS";
+			};
+			name = Debug;
+		};
+		3F3FB90D209A3FE4006C48F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9L342AVFZ;
+				INFOPLIST_FILE = SpriteKitTowniOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renangreca.SpriteKitTowniOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitTowniOS.app/SpriteKitTowniOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3FB8B6209A3848006C48F1 /* Build configuration list for PBXProject "SpriteKitTown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3FB8DA209A384C006C48F1 /* Debug */,
+				3F3FB8DB209A384C006C48F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3FB8DC209A384C006C48F1 /* Build configuration list for PBXNativeTarget "SpriteKitTownMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3FB8DD209A384C006C48F1 /* Debug */,
+				3F3FB8DE209A384C006C48F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3FB8DF209A384C006C48F1 /* Build configuration list for PBXNativeTarget "SpriteKitTownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3FB8E0209A384C006C48F1 /* Debug */,
+				3F3FB8E1209A384C006C48F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3FB908209A3FE4006C48F1 /* Build configuration list for PBXNativeTarget "SpriteKitTowniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3FB909209A3FE4006C48F1 /* Debug */,
+				3F3FB90A209A3FE4006C48F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3FB90B209A3FE4006C48F1 /* Build configuration list for PBXNativeTarget "SpriteKitTowniOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3FB90C209A3FE4006C48F1 /* Debug */,
+				3F3FB90D209A3FE4006C48F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3FB8B3209A3848006C48F1 /* Project object */;
+}

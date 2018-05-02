@@ -1,0 +1,11 @@
+framework module SKTiled {
+  umbrella header "SKTiled.h"
+
+  export *
+  module * { export * }
+}
+
+module SKTiled.Swift {
+    header "SKTiled-Swift.h"
+    requires objc
+}
