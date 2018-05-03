@@ -16,12 +16,12 @@ class GameScene: SKScene {
     var graphs = [String : GKGraph]()
     
     private var lastUpdateTime : TimeInterval = 0
-    private var label : SKLabelNode?
+    var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     
-    let car = SKSpriteNode(imageNamed: "Audi")
+    let car = Car(imageNamed: "Audi")
     
-//    var startPosition: CGPoint?
+    var startPosition: CGPoint?
     
     override func sceneDidLoad() {
         
@@ -36,26 +36,28 @@ class GameScene: SKScene {
             tileMap.zPosition = 0
             self.addChild(tileMap)
             
+            let buildingsLayer = (tileMap.getLayers(named: "Buildings") as! [SKTileLayer]).first!
+            for tile in buildingsLayer.getTiles() {
+                tile.zPosition = 15000
+            }
+            
             let roadLayer = (tileMap.getLayers(named: "Roads") as! [SKTileLayer]).first!
             let roadTiles = roadLayer.getTiles()
             
-            for tile in roadTiles {
-                let c = self.car.copy() as! SKSpriteNode
-                c.position = CGPoint(x: tile.position.x-self.size.width/2, y: tile.position.y+self.size.height/2)
-                self.addChild(c)
-            }
-//            self.startPosition = roadTiles.first?.position
+            self.startPosition = roadTiles.first!.position
             
-            
-            
+            car.position = CGPoint(x: self.startPosition!.x-self.size.width/2, y: self.startPosition!.y+self.size.height/2)
+            car.changeDirection(to: .south, duration: 0)
+            self.addChild(car)
         }
-        
         
         
     }
     
     
     func touchDown(atPoint pos : CGPoint) {
+        
+//        car.changeDirection(to: .south)
         
 //        let c = self.car.copy() as! SKSpriteNode
 //        c.position = pos
@@ -100,6 +102,8 @@ class GameScene: SKScene {
         for entity in self.entities {
             entity.update(deltaTime: dt)
         }
+        
+        car.move(duration: dt)
         
         self.lastUpdateTime = currentTime
     }
