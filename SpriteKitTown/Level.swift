@@ -24,11 +24,7 @@ class Level {
         var grid = [[SKNode]]()
         
         let size = CGSize(width: nodeWidth, height: nodeHeight)
-        
-//        let tileSet = SKTileSet(named: "FreeCityTileset")
-//
-//        let node = SKTileMapNode(
-        
+                
         for h in 0..<height {
             var row = [SKNode]()
             for w in 0..<width {

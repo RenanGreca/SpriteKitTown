@@ -22,6 +22,7 @@ class GameScene: SKScene {
     let car = Car(imageNamed: "Audi")
     
     var startPosition: CGPoint?
+    var roadLayer: SKTileLayer?
     
     override func sceneDidLoad() {
         
@@ -36,17 +37,20 @@ class GameScene: SKScene {
             tileMap.zPosition = 0
             self.addChild(tileMap)
             
+//            self.anchorPoint = CGPoint(x: 0, y: self.size.height)
+            
             let buildingsLayer = (tileMap.getLayers(named: "Buildings") as! [SKTileLayer]).first!
             for tile in buildingsLayer.getTiles() {
                 tile.zPosition = 15000
             }
             
-            let roadLayer = (tileMap.getLayers(named: "Roads") as! [SKTileLayer]).first!
-            let roadTiles = roadLayer.getTiles()
+            self.roadLayer = (tileMap.getLayers(named: "Roads") as! [SKTileLayer]).first!
+            let roadTiles = roadLayer!.getTiles()
             
             self.startPosition = roadTiles.first!.position
             
             car.position = CGPoint(x: self.startPosition!.x-self.size.width/2, y: self.startPosition!.y+self.size.height/2)
+            car.position = CGPoint(x: self.startPosition!.x, y: self.startPosition!.y)
             car.changeDirection(to: .south, duration: 0)
             self.addChild(car)
         }
@@ -103,7 +107,9 @@ class GameScene: SKScene {
             entity.update(deltaTime: dt)
         }
         
-        car.move(duration: dt)
+        if let _ = roadLayer?.tileAt(coord: car.front) {
+            car.move(duration: dt)
+        }
         
         self.lastUpdateTime = currentTime
     }

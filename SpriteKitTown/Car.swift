@@ -14,7 +14,7 @@ class Car: SKSpriteNode {
     
     let height:CGFloat = 32
     let width:CGFloat  = 32
-    
+        
     enum Direction {
         case north
         case south
@@ -48,6 +48,19 @@ class Car: SKSpriteNode {
     }
     
     private var direction:Direction = .north
+    
+    var front:CGPoint {
+        switch self.direction {
+        case .north:
+            return CGPoint(x: self.position.x, y: (self.position.y + self.height/2) + 1)
+        case .south:
+            return CGPoint(x: self.position.x, y: (self.position.y - self.height/2) - 1)
+        case .east:
+            return CGPoint(x: (self.position.x + self.width/2) + 1, y: self.position.y)
+        case .west:
+            return CGPoint(x: (self.position.x - self.width/2) - 1, y: self.position.y)
+        }
+    }
     
     func changeDirection(to direction: Direction, duration: TimeInterval) {
         
